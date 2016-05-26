@@ -7,6 +7,9 @@
     "sanitize-filename": "^1.6.0",
     "twitter-node-client": "^0.0.6"
   },
+  "scripts": {
+    "start": "node server.js"
+  },
   "license": "ISC",
   "author": "Jura Khrapunov <jura.khrapunov@undp.org> (http://www.undp.org)"
 }
