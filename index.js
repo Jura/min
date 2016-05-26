@@ -43,7 +43,7 @@ http.createServer(function (request, response) {
     // Send the response body 
     response.end();
   });
-}).listen(8081);
+}).listen(config.port);
 
 // Console will print the message
 if (config.debug) console.log('Server running at http://127.0.0.1:8081/');
